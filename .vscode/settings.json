@@ -1,0 +1,12 @@
+{
+    "editor.tabSize": 2,
+    "[css]": {
+        "editor.formatOnSave": true
+    },
+    "[scss]": {
+        "editor.formatOnSave": true
+    },
+    "[javascript]": {
+        "editor.formatOnSave": true
+    }
+}

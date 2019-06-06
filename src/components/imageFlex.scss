@@ -1,0 +1,17 @@
+.images-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  .img {
+    height: 300px;
+    width: 420px;
+    padding: 8px;
+    cursor: pointer;
+    img {
+      height: 100%;
+      width: 100%;
+      object-fit: fill;
+    }
+  }
+}

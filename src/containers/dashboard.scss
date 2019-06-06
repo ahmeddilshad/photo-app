@@ -1,0 +1,39 @@
+@mixin flexCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main {
+  width: 100%;
+  height: 100%;
+  .title {
+    @include flexCenter;
+    height: 80px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .content-section {
+    padding: 40px;
+    border-top: 0.3px solid;
+    box-shadow: inset 0 15px 15px -20px rgba(0, 0, 0, 0.4);
+    background-color: #f9f9f9;
+    .searchbar {
+      @include flexCenter;
+      padding: 0 20% 0 20%;
+      margin-bottom: 28px;
+    }
+    .load-more {
+      @include flexCenter;
+      margin-top: 28px;
+      button {
+        height: 40px;
+        width: 180px;
+        color: #f9f9f9;
+        background-color: #5d6161;
+        font-size: 16px;
+      }
+    }
+  }
+}
